@@ -1,1 +1,2 @@
-const App = 'vue'
+/* exported App */
+// const App = 'vue'
