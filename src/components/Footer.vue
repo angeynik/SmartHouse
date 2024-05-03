@@ -1,12 +1,12 @@
 <template>
    <div class="footer">
-        <div style="width: 20%;">
+        <div class="center">
             <h2> О нас</h2>
         </div>
-        <div style="width: 50%;">
+        <div class="center">
             <h2> {{ now }} </h2>
         </div>
-        <div style="width: 30%;">
+        <div class="center">
             <h2> Контакты </h2>
         </div>
    </div>

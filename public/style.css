@@ -66,11 +66,14 @@ h1, h2,h3, h4, h5, h6, p {
         font-family: "Istok Web", sans-serif;
         font-weight: 100;
         background-color: var(--header_color);
-        color: var(--header_color);
-        width: 100vw;
+        color: var(--light_font);
+        width: 100%;
         height: 60px; 
         display: flex;
         align-items: center;
+}
+.center {
+    align-items: center;
 }
 .card {
     font-family: "Istok Web", sans-serif;
