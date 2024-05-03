@@ -1,7 +1,7 @@
 <template>
        <div class="header">
         <div style="width: 20%;">
-            <h2> Инженерная компания</h2>
+            <h2> {{ title }} </h2>
         </div>
         <div style="width: 50%;">
             <h2> </h2>
@@ -13,6 +13,10 @@
 </template>
 <script>
 export default {
-    
+   data() {
+    return {
+        title: 'Enco'
+    }
+   }
 }
 </script>

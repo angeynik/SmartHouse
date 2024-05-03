@@ -55,7 +55,7 @@ h1, h2,h3, h4, h5, h6, p {
 .header {
     font-family: "Istok Web", sans-serif;
     font-weight: 100;
-    background-color: var(--header_color);
+    background-color: var(--light_font);
     width: 100vw;
     height: 60px; 
     display: flex;
@@ -66,10 +66,23 @@ h1, h2,h3, h4, h5, h6, p {
         font-family: "Istok Web", sans-serif;
         font-weight: 100;
         background-color: var(--header_color);
+        color: var(--header_color);
         width: 100vw;
         height: 60px; 
         display: flex;
         align-items: center;
+}
+.card {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 100;
+    background-color: var(--dark_font);
+    color: var(--light_font);
+    width: 40vw;
+    height: 25vw; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .dinamic_logo {
     font-size: 20px;
