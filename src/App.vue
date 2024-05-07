@@ -10,6 +10,7 @@
           :title="item.title"
           :id="item.id"
           :was-read="item.wasRead"
+          :news="news"
           v-on:open-news="openNews"
           v-on:close-news="closeNews"
           @unmark="reverse"
