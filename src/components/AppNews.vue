@@ -19,7 +19,7 @@
             @action="$emit('unmark', id)" 
             v-if="wasRead"
             > Не прочитана </app-button>
-            <app-news-list :news="news"> </app-news-list>
+            <app-news-list> </app-news-list>
         </div>
     </div>
 </template>

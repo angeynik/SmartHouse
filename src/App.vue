@@ -10,7 +10,6 @@
           :title="item.title"
           :id="item.id"
           :was-read="item.wasRead"
-          :news="news"
           v-on:open-news="openNews"
           v-on:close-news="closeNews"
           @unmark="reverse"
@@ -51,6 +50,12 @@ export default {
       ]
     }
   }, 
+  provide() {
+    return { 
+      title: 'Список всех новостей',
+      news: this.news
+    }
+  },
   methods: {
     openNews(data) {
       this.openRate++
