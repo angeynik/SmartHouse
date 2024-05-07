@@ -77,15 +77,11 @@ h1, h2,h3, h4, h5, h6, p {
 }
 .card {
     font-family: "Istok Web", sans-serif;
-    font-weight: 100;
-    background-color: var(--dark_font);
+    font-weight: 300;
+    background-color: var(--header_color);
     color: var(--light_font);
-    width: 40vw;
-    height: 25vw; 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 50vw;
+    min-height: 15vh; 
 }
 .dinamic_logo {
     font-size: 20px;
