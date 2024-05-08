@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, defineAsyncComponent } from 'vue'
 import App from './App.vue'
 // import Header from './components/Header.vue'
 // import Footer from './components/Footer.vue'
@@ -13,3 +13,4 @@ app.mount ('#app')
 // app.component('the-header', Header)
 // app.component('the-content', Content)
 // app.component('the-footer', Footer)
+app.component('async-component', defineAsyncComponent( () => {return import('./components/AppAsyncComponent')}))
