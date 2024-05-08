@@ -8,7 +8,7 @@
 export default {
     emits: ['action'],
     props: {
-        collor: {
+        color: {
             type: String,
             default: '',
             validator(value) {

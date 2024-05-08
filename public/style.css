@@ -82,6 +82,7 @@ h1, h2,h3, h4, h5, h6, p {
     color: var(--light_font);
     width: 50vw;
     min-height: 15vh; 
+    margin: 20px
 }
 .dinamic_logo {
     font-size: 20px;
@@ -344,8 +345,11 @@ h1, h2,h3, h4, h5, h6, p {
     }
 }
 .btn {
-    background-color: #1e1e31;
-    color: green;
+    background-color: #white;
+    color: darkgreen;
+    font-size: 22px;
+    border-radius: 12px;
+    padding: 12px
 }
 .primary {
     background-color: #4D576C;
